@@ -1,4 +1,4 @@
-function OverwolfPlugin(extraObjectNameInManifest: string, addNameToObject: boolean) {
+export function OverwolfPlugin(extraObjectNameInManifest: string, addNameToObject: boolean) {
   let _pluginInstance  = null;
   const _extraObjectName = extraObjectNameInManifest;
   const _addNameToObject = addNameToObject;
